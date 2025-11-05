@@ -72,27 +72,6 @@ const Navbar = () => {
             >
               Resume
             </a>
-            <button
-              onClick={toggleTheme}
-              className="ml-2 p-2 rounded-lg border border-gray-300 text-gray-800 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-900 transition-all"
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? <FaSun size={16} /> : <FaMoon size={16} />}
-            </button>
-          </div>
-          <div className="md:hidden flex items-center gap-3">
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-lg border border-gray-300 text-gray-800 hover:bg-gray-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-900 transition-all"
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? <FaSun size={16} /> : <FaMoon size={16} />}
-            </button>
-            <button className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
           </div>
         </div>
       </div>
