@@ -32,7 +32,7 @@ const Projects = () => {
         >
           <span className="text-gray-400 font-mono text-xl">03.</span>
           <span className="text-gray-900 dark:text-white">Featured Projects</span>
-          <div className="flex-1 h-px bg-gray-800 ml-4"></div>
+          <div className="flex-1 h-px bg-gray-300 dark:bg-gray-800 ml-4"></div>
         </motion.h2>
 
         <div className="grid md:grid-cols-2 gap-8">

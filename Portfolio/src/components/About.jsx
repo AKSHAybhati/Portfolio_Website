@@ -14,7 +14,7 @@ const About = () => {
         >
           <span className="text-gray-400 font-mono text-xl">01.</span>
           <span className="text-gray-900 dark:text-white">About Me</span>
-          <div className="flex-1 h-px bg-gray-800 ml-4"></div>
+          <div className="flex-1 h-px bg-gray-300 dark:bg-gray-800 ml-4"></div>
         </motion.h2>
 
         <motion.div
