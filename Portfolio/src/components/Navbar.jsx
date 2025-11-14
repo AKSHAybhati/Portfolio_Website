@@ -101,7 +101,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="https://drive.google.com/file/d/1QgwnpuYccK01-iy5pXBx6ObSwVcBxuoA/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1kFbMdIBltHXd85FPaQl2MflBc8emudeX/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-center px-4 py-2 rounded-lg border border-gray-700 text-gray-200 hover:bg-gray-900 transition-all"
